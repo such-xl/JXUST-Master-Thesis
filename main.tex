@@ -40,17 +40,17 @@
 
 %%%============================字体设置========================%%%
 \setmainfont{Times New Roman}        %缺省英文字体 Times New Roman
-\setCJKmainfont[Path=Configuration/]{simsun.ttf}          %宋体
-\setCJKsansfont[Path=Configuration/]{simhei.ttf}          %黑体
-\setCJKmonofont[Path=Configuration/]{simsun.ttf}          %宋体
+\setCJKmainfont[Path=./Configuration/]{simsun.ttf}          %宋体
+\setCJKsansfont[Path=./Configuration/]{simhei.ttf}          %黑体
+\setCJKmonofont[Path=./Configuration/]{simsun.ttf}          %宋体
 %------------------------------------------------------------------------
-\setCJKfamilyfont{song}[Path=Configuration/]{simsun.ttf}  %导入宋体字体
+\setCJKfamilyfont{song}[Path=./Configuration/]{simsun.ttf}  %导入宋体字体
 \newcommand{\song}{\CJKfamily{song}} %设置宋体快捷命令
 %------------------------------------------------------------------------
-\setCJKfamilyfont{kai}[Path=Configuration/]{simkai.ttf}   %导入楷书字体
+\setCJKfamilyfont{kai}[Path=./Configuration/]{simkai.ttf}   %导入楷书字体
 \newcommand{\kai}{\CJKfamily{kai}}   %设置楷书快捷命令
 %------------------------------------------------------------------------
-\setCJKfamilyfont{hei}[Path=Configuration/]{simhei.ttf}   %导入黑体字体
+\setCJKfamilyfont{hei}[Path=./Configuration/]{simhei.ttf}   %导入黑体字体
 \newcommand{\hei}{\CJKfamily{hei}}   %设置黑体快捷命令
 
 %%%============================摘要及关键词========================%%%
@@ -67,7 +67,7 @@
  \par 
  \noindent\mbox{}\hfill{\bfseries \ziju{2}{\cnabstractname}}\hfill\mbox{}\par 
  \vspace{0.64cm}
- }
+ }{}
     
 \newenvironment{enabstract}{%
  \newpage
@@ -75,7 +75,7 @@
  \par 
 \noindent\mbox{}\hfill{\bfseries \ziju{2}{\enabstractname}}\hfill\mbox{}\par
   \vspace{0.64cm}
- }
+ }{}
 
 %%%============================设置目录内容格式============================%%%
 \usepackage{titletoc}
@@ -119,6 +119,12 @@
 \usepackage{natbib}
 \setlength{\bibsep}{0.5ex}
 
+% 隐藏超链接边框
+% \hypersetup{
+%     colorlinks=false,
+%     pdfborder={0 0 0}
+% }
+
 % ========================
 %|                        |
 %|         正文			  |
@@ -129,7 +135,7 @@
 %%%=============================加入封面和诚信承诺书=============================%%%
 % 导入封面
 %pdf修改为论文封面的PDF文件绝对路径名
-\includepdf[pages=-]{江西理工大学硕士论文封面.pdf}
+\includepdf[pages=-]{cover.pdf}
 %%%===============================加入中英文摘要.===============================%%%
 \include{Chapters/abstract}
 %%%===============================加入目录=====================================%%%
@@ -155,6 +161,8 @@
 \include{Chapters/chapter3} % 导入第三章内容
 
 \include{Chapters/chapter4} % 导入第四章内容
+
+\include{Chapters/chapter5}
 
 %%%===============================加入结论=====================================%%%
 \include{Chapters/conclusion}

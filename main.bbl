@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -11,25 +11,52 @@
   \let\eprint\href
 \fi
 
-\bibitem[Yang et~al.(2017)Yang and Yu]{yang2017}
-Yang~X, Yu~Y.
-\newblock Estimating soil salinity under various moisture conditions: An
-  experimental study\allowbreak[J].
-\newblock IEEE Transactions on Geoscience and Remote Sensing, 2017,
-  55\allowbreak (5): 2525-2533.
+\bibitem[Liu et~al.(2023)Liu, Piplani, and Toro]{liu2023deep}
+Liu~R, Piplani~R, Toro~C.
+\newblock A deep multi-agent reinforcement learning approach to solve dynamic job shop scheduling problem\allowbreak[J].
+\newblock Computers \& Operations Research, 2023, 159: 106294.
 
-\bibitem[Liu et~al.(2020)Liu, Xiang, Yang, Hu, and Hong]{liu2020}
-Liu~Q, Xiang~X, Yang~Z, et~al.
-\newblock Arbitrary direction ship detection in remote-sensing images based on
-  multitask learning and multiregion feature fusion\allowbreak[J].
-\newblock IEEE Transactions on Geoscience and Remote Sensing, 2020.
+\bibitem[Zhao et~al.(2022)Zhao, Zhou, and Liu]{zhao2021iterated}
+Zhao~Z, Zhou~M, Liu~S.
+\newblock Iterated greedy algorithms for flow-shop scheduling problems: A tutorial\allowbreak[J/OL].
+\newblock IEEE Transactions on Automation Science and Engineering, 2022, 19\allowbreak (3): 1941-1959.
+\newblock DOI: \doi{10.1109/TASE.2021.3062994}.
 
-\bibitem[Tian et~al.(2019)Tian, Fu, Yau, Su, and Xiong]{tian2019}
-Tian~A, Fu~C, Yau~H~T, et~al.
-\newblock A new methodology of soil salinization degree classification by
-  probability neural network model based on centroid of fractional lorenz chaos
-  self-synchronization error dynamics\allowbreak[J].
-\newblock IEEE Transactions on Geoscience and Remote Sensing, 2019,
-  58\allowbreak (2): 799-810.
+\bibitem[Zhang et~al.(2024)Zhang, Yan, Yang, and Hu]{zhang2024dynamic}
+Zhang~L, Yan~Y, Yang~C, et~al.
+\newblock Dynamic flexible job-shop scheduling by multi-agent reinforcement learning with reward-shaping\allowbreak[J].
+\newblock Advanced Engineering Informatics, 2024, 62: 102872.
+
+\bibitem[Kaven et~al.(2024)Kaven, Huke, G{\"o}ppert, and Schmitt]{kaven2024multi}
+Kaven~L, Huke~P, G{\"o}ppert~A, et~al.
+\newblock Multi agent reinforcement learning for online layout planning and scheduling in flexible assembly systems\allowbreak[J].
+\newblock Journal of Intelligent Manufacturing, 2024, 35\allowbreak (8): 3917-3936.
+
+\bibitem[Pu et~al.(2024)Pu, Li, and Rahimifard]{pu2024multi}
+Pu~Y, Li~F, Rahimifard~S.
+\newblock Multi-agent reinforcement learning for job shop scheduling in dynamic environments\allowbreak[J].
+\newblock Sustainability, 2024, 16\allowbreak (8): 3234.
+
+\bibitem[Jing et~al.(2024)Jing, Yao, Liu, and Zhou]{jing2024multi}
+Jing~X, Yao~X, Liu~M, et~al.
+\newblock Multi-agent reinforcement learning based on graph convolutional network for flexible job shop scheduling\allowbreak[J].
+\newblock Journal of Intelligent Manufacturing, 2024, 35\allowbreak (1): 75-93.
+
+\bibitem[Son et~al.(2019)Son, Kim, Kang, Hostallero, and Yi]{son2019qtran}
+Son~K, Kim~D, Kang~W~J, et~al.
+\newblock Qtran: Learning to factorize with transformation for cooperative multi-agent reinforcement learning\allowbreak[C]//\allowbreak
+International conference on machine learning.
+\newblock PMLR, 2019: 5887-5896.
+
+\bibitem[Liu et~al.(2022)Liu, Piplani, and Toro]{liu2022deep}
+Liu~R, Piplani~R, Toro~C.
+\newblock Deep reinforcement learning for dynamic scheduling of a flexible job shop\allowbreak[J].
+\newblock International Journal of Production Research, 2022, 60\allowbreak (13): 4049-4069.
+
+\bibitem[Gergely(2024)]{gergely2024multi}
+Gergely~M~I.
+\newblock Multi-agent deep reinforcement learning for collaborative task scheduling.\allowbreak[C]//\allowbreak
+ICAART (3).
+\newblock 2024: 1076-1083.
 
 \end{thebibliography}
